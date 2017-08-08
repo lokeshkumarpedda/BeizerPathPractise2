@@ -12,6 +12,8 @@
 		581A85CC1E27A00C003B3454 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 581A85CA1E27A00C003B3454 /* Main.storyboard */; };
 		581A85CE1E27A00C003B3454 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 581A85CD1E27A00C003B3454 /* Assets.xcassets */; };
 		581A85D11E27A00C003B3454 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 581A85CF1E27A00C003B3454 /* LaunchScreen.storyboard */; };
+		58DDF9041E2CE07D00959865 /* pushButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DDF9031E2CE07D00959865 /* pushButton.swift */; };
+		58FB58801E2DE0C200372512 /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FB587F1E2DE0C200372512 /* CounterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		581A85CD1E27A00C003B3454 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		581A85D01E27A00C003B3454 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		581A85D21E27A00C003B3454 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58DDF9031E2CE07D00959865 /* pushButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pushButton.swift; sourceTree = "<group>"; };
+		58FB587F1E2DE0C200372512 /* CounterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				581A85C61E27A00C003B3454 /* AppDelegate.swift */,
 				581A85C81E27A00C003B3454 /* ViewController.swift */,
+				58DDF9031E2CE07D00959865 /* pushButton.swift */,
+				58FB587F1E2DE0C200372512 /* CounterView.swift */,
 				581A85CA1E27A00C003B3454 /* Main.storyboard */,
 				581A85CD1E27A00C003B3454 /* Assets.xcassets */,
 				581A85CF1E27A00C003B3454 /* LaunchScreen.storyboard */,
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58DDF9041E2CE07D00959865 /* pushButton.swift in Sources */,
 				581A85C91E27A00C003B3454 /* ViewController.swift in Sources */,
 				581A85C71E27A00C003B3454 /* AppDelegate.swift in Sources */,
+				58FB58801E2DE0C200372512 /* CounterView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +310,7 @@
 				581A85D71E27A00C003B3454 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
